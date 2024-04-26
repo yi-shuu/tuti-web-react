@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4.1.1
 
       - name: Setup Node
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v4
         with:
           node-version: "20.12.2"
         
@@ -23,13 +23,13 @@ jobs:
         run: npm install react-router-dom
 
       - name: Install @chakra-ui/react
-        run: npm install @chakra-ui/react
+        run: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
        
       - name: Install @chakra-ui/react
         run: npm install react-icons
 
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
