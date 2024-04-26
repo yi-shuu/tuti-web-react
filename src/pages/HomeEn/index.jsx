@@ -523,7 +523,7 @@ const Home = () => {
                                     <Box p={2.5}></Box>
                                 </VStack>
                             </a>
-                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank">
+                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/kpop.jpg")}
