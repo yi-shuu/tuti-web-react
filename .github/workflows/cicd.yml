@@ -15,19 +15,19 @@ jobs:                                # Job 설정
         run: node -v
         
       - name: Install dependencies    # 의존 파일 설치
-        run: yarn install
+        run: npm install
 
       - name: Install react-router-dom
-        run: yarn add react-router-dom
+        run: npm add react-router-dom
 
       - name: Install @chakra-ui/react
-        run: yarn add @chakra-ui/react
+        run: npm add @chakra-ui/react
        
       - name: Install react-icons/fa
-        run: yarn add react-icons/fa
+        run: npm add react-icons/fa
       
       - name: Generate react build    # React Build
-        run: yarn run build
+        run: npm run build
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3.9.3
