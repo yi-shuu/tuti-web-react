@@ -24,6 +24,9 @@ jobs:
 
       - name: Install @chakra-ui/react
         run: npm add @chakra-ui/react
+       
+      - name: Install @chakra-ui/react
+        run: npm add react-icons
 
       - name: Cache dependencies
         uses: actions/cache@v2
