@@ -25,6 +25,10 @@ jobs:
       - name: Install @chakra-ui/react
         run: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
+      - name: instll chakra
+        run: npm install @chakra-ui/icons
+
+
       - name: Dev Dependencies
         run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
        
