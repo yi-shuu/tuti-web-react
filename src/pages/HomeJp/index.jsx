@@ -40,7 +40,7 @@ const Home = () => {
                     <VStack marginTop={5}>
                         <Drawer
                             triggerButtonText=""
-                            header="Menu"
+                            header="Menu."
                         >
                             <VStack>
                                 <Link to="/company">
