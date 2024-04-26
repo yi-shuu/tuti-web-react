@@ -22,8 +22,8 @@ jobs:
       - name: Install react-router-dom
         run: npm install react-router-dom
 
-    #   - name: Install @chakra-ui/react
-    #     run: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+      - name: Install @chakra-ui/react
+        run: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
       - name: instll chakra
         run: npm install @chakra-ui/icons
