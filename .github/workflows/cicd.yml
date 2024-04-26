@@ -17,13 +17,13 @@ jobs:
           node-version: "20.12.2"
         
       - name: Install dependencies
-        run: yarn install
+        run: npm install
 
       - name: Install react-router-dom
-        run: yarn add react-router-dom
+        run: npm add react-router-dom
 
       - name: Install @chakra-ui/react
-        run: yarn add @chakra-ui/react
+        run: npm add @chakra-ui/react
 
       - name: Cache dependencies
         uses: actions/cache@v2
