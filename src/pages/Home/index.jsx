@@ -16,8 +16,6 @@ import {
 
 import { Link } from "react-router-dom";
 
-import { FaBars } from 'react-icons/fa';
-
 import { Drawer } from "../../components/Buttons/Drawer";
 import { Popover } from "../../components/Buttons/Popover";
 // import { Modal } from "../../components/Buttons/Modal";
@@ -136,7 +134,7 @@ const Home = () => {
                 <div>
                     <VStack>
                         <HStack marginLeft={10} marginTop={6} spacing={5}>
-                            <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">
+                            <a href="https://www.hanyang.ac.kr/web/eng" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/hanyang.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -145,7 +143,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://www.khu.ac.kr/eng/user/main/view.do" target="_blank">
+                            <a href="https://www.khu.ac.kr/eng/user/main/view.do" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/kyunghee.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -154,7 +152,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://admission-global.skku.edu/eng/index.html" target="_blank">
+                            <a href="https://admission-global.skku.edu/eng/index.html" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/skku.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -166,7 +164,7 @@ const Home = () => {
 
                         </HStack>
                         <HStack marginLeft={10} marginTop={6} spacing={20}>
-                            <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">
+                            <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/yonsei.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -175,7 +173,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://www.korea.edu/mbshome/mbs/en/index.do#none" target="_blank">
+                            <a href="https://www.korea.edu/mbshome/mbs/en/index.do#none" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/korea.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -193,7 +191,7 @@ const Home = () => {
                 <div>
                     <VStack>
                         <HStack marginLeft={2} marginTop={6} spacing={7} marginRight={2}>
-                            <a href="https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109487&searchCategory1=600&searchCategory2=&searchCategory3=&searchField=all&searchDate=202404&weekSel=undefined&searchText=" target="_blank">
+                            <a href="https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109487&searchCategory1=600&searchCategory2=&searchCategory3=&searchField=all&searchDate=202404&weekSel=undefined&searchText=" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/moon.jpg")}
@@ -209,7 +207,7 @@ const Home = () => {
                                     <Text fontSize={12} lineHeight={1} fontWeight="bold" color={"gray.400"} marginLeft={7}>(2부)20:00, 20:05, 20:10</Text>
                                 </VStack>
                             </a>
-                            <a href="https://www.k-illustrationfair.com/" target="_blank">
+                            <a href="https://www.k-illustrationfair.com/" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/seoul.jpg")}
@@ -227,7 +225,7 @@ const Home = () => {
                             </a>
                         </HStack>
                         <HStack marginLeft={2} marginTop={6} spacing={7} marginRight={2}>
-                            <a href="http://www.bba48.or.kr/" target="_blank">
+                            <a href="http://www.bba48.or.kr/" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/busan.jpg")}
@@ -243,7 +241,7 @@ const Home = () => {
                                     <Box p={2.5}></Box>
                                 </VStack>
                             </a>
-                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank">
+                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/kpop.jpg")}
@@ -394,7 +392,7 @@ const Home = () => {
                 <div>
                     <VStack>
                         <HStack marginLeft={10} marginTop={6} spacing={16}>
-                            <a href="https://www.hanyang.ac.kr/web/eng" target="_blank">
+                            <a href="https://www.hanyang.ac.kr/web/eng" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/hanyang.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -403,7 +401,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://www.khu.ac.kr/eng/user/main/view.do" target="_blank">
+                            <a href="https://www.khu.ac.kr/eng/user/main/view.do" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/kyunghee.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -412,7 +410,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://admission-global.skku.edu/eng/index.html" target="_blank">
+                            <a href="https://admission-global.skku.edu/eng/index.html" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/skku.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -421,7 +419,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">
+                            <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/yonsei.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -430,7 +428,7 @@ const Home = () => {
                                     alt="logo"
                                 />
                             </a>
-                            <a href="https://www.korea.edu/mbshome/mbs/en/index.do#none" target="_blank">
+                            <a href="https://www.korea.edu/mbshome/mbs/en/index.do#none" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     src={require("../../assets/korea.png")}
                                     fallbackSrc="https://via.placeholder.com/48"
@@ -448,7 +446,7 @@ const Home = () => {
                 <div>
                     <VStack>
                         <HStack marginLeft={10} marginTop={6} spacing={20}>
-                            <a href="https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109487&searchCategory1=600&searchCategory2=&searchCategory3=&searchField=all&searchDate=202404&weekSel=undefined&searchText=" target="_blank">
+                            <a href="https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109487&searchCategory1=600&searchCategory2=&searchCategory3=&searchField=all&searchDate=202404&weekSel=undefined&searchText=" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/moon.jpg")}
@@ -464,7 +462,7 @@ const Home = () => {
                                     <Text fontSize={12} lineHeight={1} fontWeight="bold" color={"gray.400"} marginLeft={7}>(2부)20:00, 20:05, 20:10</Text>
                                 </VStack>
                             </a>
-                            <a href="https://www.k-illustrationfair.com/" target="_blank">
+                            <a href="https://www.k-illustrationfair.com/" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/seoul.jpg")}
@@ -480,7 +478,7 @@ const Home = () => {
                                     <Box p={2}></Box>
                                 </VStack>
                             </a>
-                            <a href="http://www.bba48.or.kr/" target="_blank">
+                            <a href="http://www.bba48.or.kr/" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/busan.jpg")}
@@ -496,7 +494,7 @@ const Home = () => {
                                     <Box p={2.5}></Box>
                                 </VStack>
                             </a>
-                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank">
+                            <a href="https://overseas.mofa.go.kr/pt-ko/brd/m_9320/view.do?seq=1345691" target="_blank" rel="noopener noreferrer">
                                 <VStack align="start">
                                     <Image
                                         src={require("../../assets/kpop.jpg")}
