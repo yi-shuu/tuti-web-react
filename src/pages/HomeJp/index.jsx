@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 import { Drawer } from "../../components/Buttons/Drawer";
 import { Popover } from "../../components/Buttons/Popover";
-import { Modal } from "../../components/Buttons/Modal";
+// import { Modal } from "../../components/Buttons/Modal";
 
 const Home = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);

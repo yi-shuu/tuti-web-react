@@ -1,16 +1,16 @@
-import EmbedPageExample from "../pages/EmbedPageExample";
-import EmbedPageWithID from "../pages/EmbedPageExample/EmbedPageWithID";
+// import EmbedPageExample from "../pages/EmbedPageExample";
+// import EmbedPageWithID from "../pages/EmbedPageExample/EmbedPageWithID";
 import Home from "../pages/Home";
 import HomeEn from "../pages/HomeEn";
 import HomeJp from "../pages/HomeJp";
 import HomeSimple from "../pages/HomeSimple";
 import { Routes, Route } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import Login from "../pages/Login"
+// import NavBar from "../components/NavBar";
+// import Login from "../pages/Login"
 import PageNotFound from "../pages/PageNotFound";
 import Company from "../pages/Company";
-import ContactUs from "../pages/ContactUs";
-import Signup from "../pages/Signup";
+// import ContactUs from "../pages/ContactUs";
+// import Signup from "../pages/Signup";
 // import { useAuthState } from "../hook/auth";
 export default function Router() {
     // const auth = useAuthState()
