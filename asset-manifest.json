@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/tuti-web-react/static/css/main.f855e6bc.css",
-    "main.js": "/tuti-web-react/static/js/main.63dddddb.js",
-    "static/js/453.c642dadb.chunk.js": "/tuti-web-react/static/js/453.c642dadb.chunk.js",
-    "static/media/hanyang.png": "/tuti-web-react/static/media/hanyang.8e7767a655a073f67d59.png",
-    "static/media/kpop.jpg": "/tuti-web-react/static/media/kpop.df25911d514fab774591.jpg",
-    "static/media/instagram.png": "/tuti-web-react/static/media/instagram.bcc57bdcdb33d3a72e85.png",
-    "static/media/busan.jpg": "/tuti-web-react/static/media/busan.bea4a4a92c9576450499.jpg",
-    "static/media/yonsei.png": "/tuti-web-react/static/media/yonsei.8eb4b91c3ec914e2cce3.png",
-    "static/media/moon.jpg": "/tuti-web-react/static/media/moon.cd2f36d832c9f3a04185.jpg",
-    "static/media/korea.png": "/tuti-web-react/static/media/korea.9ff9b0db24a834a50062.png",
-    "static/media/seoul.jpg": "/tuti-web-react/static/media/seoul.f65357683f5543d7974d.jpg",
-    "static/media/skku.png": "/tuti-web-react/static/media/skku.6c388f0155b9d33ef270.png",
-    "static/media/kakaologo.png": "/tuti-web-react/static/media/kakaologo.2d9f670278a303b3ac77.png",
-    "static/media/kyunghee.png": "/tuti-web-react/static/media/kyunghee.fd455a32c246a81455c9.png",
-    "index.html": "/tuti-web-react/index.html",
-    "main.f855e6bc.css.map": "/tuti-web-react/static/css/main.f855e6bc.css.map",
-    "main.63dddddb.js.map": "/tuti-web-react/static/js/main.63dddddb.js.map",
-    "453.c642dadb.chunk.js.map": "/tuti-web-react/static/js/453.c642dadb.chunk.js.map"
+    "main.css": "/tuti-web-react/en/static/css/main.f855e6bc.css",
+    "main.js": "/tuti-web-react/en/static/js/main.2d5745a2.js",
+    "static/js/453.c642dadb.chunk.js": "/tuti-web-react/en/static/js/453.c642dadb.chunk.js",
+    "static/media/hanyang.png": "/tuti-web-react/en/static/media/hanyang.8e7767a655a073f67d59.png",
+    "static/media/kpop.jpg": "/tuti-web-react/en/static/media/kpop.df25911d514fab774591.jpg",
+    "static/media/instagram.png": "/tuti-web-react/en/static/media/instagram.bcc57bdcdb33d3a72e85.png",
+    "static/media/busan.jpg": "/tuti-web-react/en/static/media/busan.bea4a4a92c9576450499.jpg",
+    "static/media/yonsei.png": "/tuti-web-react/en/static/media/yonsei.8eb4b91c3ec914e2cce3.png",
+    "static/media/moon.jpg": "/tuti-web-react/en/static/media/moon.cd2f36d832c9f3a04185.jpg",
+    "static/media/korea.png": "/tuti-web-react/en/static/media/korea.9ff9b0db24a834a50062.png",
+    "static/media/seoul.jpg": "/tuti-web-react/en/static/media/seoul.f65357683f5543d7974d.jpg",
+    "static/media/skku.png": "/tuti-web-react/en/static/media/skku.6c388f0155b9d33ef270.png",
+    "static/media/kakaologo.png": "/tuti-web-react/en/static/media/kakaologo.2d9f670278a303b3ac77.png",
+    "static/media/kyunghee.png": "/tuti-web-react/en/static/media/kyunghee.fd455a32c246a81455c9.png",
+    "index.html": "/tuti-web-react/en/index.html",
+    "main.f855e6bc.css.map": "/tuti-web-react/en/static/css/main.f855e6bc.css.map",
+    "main.2d5745a2.js.map": "/tuti-web-react/en/static/js/main.2d5745a2.js.map",
+    "453.c642dadb.chunk.js.map": "/tuti-web-react/en/static/js/453.c642dadb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.63dddddb.js"
+    "static/js/main.2d5745a2.js"
   ]
 }
