@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tuti-web-react/static/css/main.f855e6bc.css",
-    "main.js": "/tuti-web-react/static/js/main.15184935.js",
+    "main.js": "/tuti-web-react/static/js/main.3e1c819b.js",
     "static/js/453.c642dadb.chunk.js": "/tuti-web-react/static/js/453.c642dadb.chunk.js",
     "static/media/hanyang.png": "/tuti-web-react/static/media/hanyang.8e7767a655a073f67d59.png",
     "static/media/kpop.jpg": "/tuti-web-react/static/media/kpop.df25911d514fab774591.jpg",
@@ -16,11 +16,11 @@
     "static/media/kyunghee.png": "/tuti-web-react/static/media/kyunghee.fd455a32c246a81455c9.png",
     "index.html": "/tuti-web-react/index.html",
     "main.f855e6bc.css.map": "/tuti-web-react/static/css/main.f855e6bc.css.map",
-    "main.15184935.js.map": "/tuti-web-react/static/js/main.15184935.js.map",
+    "main.3e1c819b.js.map": "/tuti-web-react/static/js/main.3e1c819b.js.map",
     "453.c642dadb.chunk.js.map": "/tuti-web-react/static/js/453.c642dadb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.15184935.js"
+    "static/js/main.3e1c819b.js"
   ]
 }
