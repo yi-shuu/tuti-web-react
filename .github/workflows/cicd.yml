@@ -46,10 +46,6 @@ jobs:
       - run: npm ci
       - run: npm run build # 빌드 스크립트
 
-      - name: Modify index.html
-        run: |
-         sed -i 's|<head>|<head><base href="/tuti-web-react/">|' build/index.html
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
