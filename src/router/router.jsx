@@ -22,7 +22,7 @@ export default function Router() {
                     <Route path="/jp" element={<HomeJp />} />
                     <Route path="/simple" element={<HomeSimple />} />
                     <Route path="/company" element={<Company />} />
-                    <Route path="/*" element={<PageNotFound />} />
+                    <Route path="*" element={<PageNotFound />} />
                     {/* <Route path="/embed_page_example" element={<EmbedPageExample />}>
                         <Route path=":id" element={<EmbedPageWithID />} />
                     </Route>
